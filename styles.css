@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+}
+header, 
+footer{
+    background-color: rgb(110, 172, 104);
+    color : rgb(5, 5, 5);
+    text-align: center;
+    padding: 15px;
+    margin-top: 24px;
+
+}
+main{
+    background-color: rgb(1, 5, 5);
+    color : rgb(230, 216, 216);
+
+}
+.contenedor1{
+    color:blue;
+}
+.contenedor2 {
+    color:red;
+}
+.perfilcontenedor{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.infoperfil
+{
+    text-align: left;
+    margin-left: auto;
+}
+h4{
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(17, 160, 160);
+}
+.hobi{
+    text-align: center;
+    margin-right: 20px;
+}
+h5{
+    color: blue;
+    font-size: 30px;
+}
+.animeimg{
+    float: right;
+    margin-top: 10px;
+    margin-right: 0;
+}
+.infojujutsu{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.6;
+}
+h6{
+    color: rgb(17, 240, 17);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.infofutbol{
+    text-align: right;
+    margin-left: auto;    
+}
