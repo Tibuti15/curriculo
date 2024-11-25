@@ -4,19 +4,20 @@ body{
 header, 
 footer{
     background-color: rgb(110, 172, 104);
-    color : rgb(5, 5, 5);
+    color : rgb(17, 16, 16);
     text-align: center;
     padding: 15px;
     margin-top: 24px;
 
 }
 main{
-    background-color: rgb(1, 5, 5);
-    color : rgb(230, 216, 216);
+    background-color: rgb(196, 252, 252);
+    color : rgb(3, 3, 3);
 
 }
 .contenedor1{
     color:blue;
+    padding-left: 30px;
 }
 .contenedor2 {
     color:red;
@@ -25,35 +26,43 @@ main{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-left: 50px;
 }
-.infoperfil
+.Inforperfil
 {
-    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
     margin-left: auto;
+    padding-right: 280px;
 }
 h4{
     margin-top: 15px;
     text-align: center;
     color: rgb(17, 160, 160);
 }
-.hobi{
+.Hobi{
     text-align: center;
     margin-right: 20px;
+    font-family: cursive;
 }
 h5{
     color: blue;
     font-size: 30px;
+    text-align: center;
 }
 .animeimg{
     float: right;
     margin-top: 10px;
     margin-right: 0;
+    padding-right: 200px;
+    padding-bottom: 100px;
 }
-.infojujutsu{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.Infojujutsu{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 2.5em;
-    line-height: 1.6;
+    color: rgb(240, 149, 13);
+    padding-top: 50px;
+
 }
 h6{
     color: rgb(17, 240, 17);
@@ -61,7 +70,7 @@ h6{
     text-align: center;
     margin-top: 20px;
 }
-.infofutbol{
-    text-align: right;
-    margin-left: auto;    
+.Infofutbol{
+    text-align: center;
+    gap: 20px;  
 }
