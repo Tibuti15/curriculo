@@ -22,7 +22,7 @@
         <div class="Contenedor1">
             <center>
             <h2>Mi Perfil</h2>
-            <p>Saludos mi nombre es Carlos: Estudio la carrera de Sistemas de Informacion</p>
+            <p class="texto">Saludos mi nombre es Carlos: Estudio la carrera de Sistemas de Informacion</p>
             </center>
         </div>
         <div class="Contenedor2"> 
@@ -43,6 +43,21 @@
                 <p>Me gusta mucho el anime Japones es muy interesante y agradable</p>
                 <p>Y uno de los animes que recomendaria ver es </p>
             </div>
+            <div class="row">
+                <center>
+                <br>
+                <div class="cold-md-4" id="color1">
+                    <p> SEMAFORO </p>
+                </div>
+                 
+                <a href="http://127.0.0.1:5500/semaforo.html">
+                    <button>Ir a Semaforo</button>
+                </a>
+                </center>
+            </div>
+
+            <br>
+
             <h5>JUJUTSU KAISEN  </h5>
             <img src="jujutsu.jpg" alt="Imajen de jujutsu kaisen" class="animeimg" width="400">
             <center>
@@ -70,9 +85,11 @@
                     <p>Y mi equipo favorito es el psg</p>
                 </div>
                 <center>
-                <a href="Informacion.html" class="btn btn-light border border-dark mt-3" style="color: black; background-color: white;">
-                MAS INFORMACION
+                <a href="http://127.0.0.1:5500/Mi-perfil.html">
+                    <button>MAS INFORMACION</button>
                 </a>
+                <button class="btn btn-success mt-3 ms-2" onclick="showMessage()">Aceptar</button>
+                <button class="btn btn-success mt-3 ms-2" onclick="cambiarContenido()">cambiar</button>
 
                 </center>
         </div>
@@ -80,7 +97,28 @@
         <p>Derechos Reservados @2024 </p>
     </footer>    
     </main>
+    <script src="">
+        integrity=""
+        crossorigin="anonymous"</script>
+    <script>
+        function showMessage(){
+            alert("has precionado el boton aceptar")
+        }
+        function cambiarContenido(){
+            const texto = document.querySelector('.texto'); //sirve para atrapar elementos por su clase
+            texto.textContent = "Este es el nuevo contenido generado desde JS";
+        }
+        function cambiarColor(idElemento , color){
+            const d = document.getElementById(idElemento);
+            d.style.backgroundColor = "green";
+        }
+        function cambiarCo(){
+            const d = document.getElementById(idElemento);
+            d.style.background = "white";
+        }
+    </script> 
 
 </body>
 
 </html>
+
