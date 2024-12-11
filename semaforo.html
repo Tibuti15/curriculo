@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta keywords="gestion,sistemas">
+    <meta charset="UTF-8">
+    <title> SEMAFORO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <center>
+        <h1>SEMAFORO</h1>
+        </center>
+    </header>
+    <div class="semaforo">
+        <div class="circulo " id="color1"></div>
+        <div class="circulo" id="color2"></div>
+        <div class="circulo" id="color3"></div>
+    </div>
+    <div class="Botones">
+        <button class="btn" style="background-color: red; color: white;" onclick="cambiarColor('color1','red','color2','color3')">Rojo</button>
+        <button class="btn" style="background-color: yellow; color: black;" onclick="cambiarColor('color2','yellow','color1','color3')">Amarillo</button>
+        <button class="btn" style="background-color: green; color: white;" onclick="cambiarColor('color3','green','color2','color1')">Verde</button>
+    </div>
+    <script>
+        function cambiarColor(idElemento, color,idotroelemento,idotroelem){
+            const div= document.getElementById(idElemento);
+            div.style.backgroundColor=color
+            const div2= document.getElementById(idotroelemento);
+            div2.style.backgroundColor='white'
+            const div3= document.getElementById(idotroelem);
+            div3.style.backgroundColor='white'
+
+        }
+    </script>
+
+</body>
+</html>
